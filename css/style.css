@@ -5,7 +5,8 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;  color: black;
+    font-family: Arial, Helvetica, sans-serif;  
+    color: black;
 }
 
 header{
@@ -15,18 +16,20 @@ header{
   
 }
 .container{
-    max-width: 1200px;
+    max-width: 1100px;
     margin: 0 auto;
 }
 
 .container-sm {
-    width: 990px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
-.row{
+.row {
     display: flex;
     flex-wrap: wrap;
+    
+    justify-content: center;
 }
 
 .col-header{
@@ -46,6 +49,13 @@ header{
 .bg-white {
     background-color: rgb(240, 240, 168);
 }
+
+ .bg-jumbo {
+     height: 25vw;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+ }
 
 
 /*-----------------------------------------------------COLONNE*/
@@ -67,7 +77,7 @@ header{
 .content-30{
     background-color: yellow;
         border-style: dashed;
-        height:100px;
+        
         padding: 5px;
 
 }
@@ -84,7 +94,7 @@ header{
     border: none;
 }
 
-
+/*-----------------------------------------------------INSIDE FIRST 3 COLONNE*/
 
 
 /*-----------------------------------------------------UTILITIES*/
@@ -95,15 +105,20 @@ header{
 ul {
     display: flex;
 }
-ul li {
+li   {
     display: inline-block;
 }
+
 .space-between{
     justify-content: space-between;
 }
-.align-center {align-items: center;}
-.inline-block{display: inline-block;}
-li{padding: 0 10px;}
+.align-center {
+    align-items: center;}
+.inline-block{
+    display: inline-block;}
+li{
+    padding: 0 10px;
+}
 
 h1{
     font-size: 60px;
@@ -112,24 +127,33 @@ h1{
 .justify-center{
     justify-content: center;
 }
-.my-30{
-    margin: 30px 0;
-}
- 
+
 
 .font-40{
     font-size: 40px;
 }
 
+.font-12 {
+    font-size: 12px;
+}
+
 /*-----------------------------------------------------space*/
 
 .py-30{
-    padding: 30px;
+    padding: 0 30px;
+}
+.px-20 {
+    padding: 0 20px;
 }
 
- .bg-jumbo {
-    height: 25vw;
-    background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
- }
+ .my-30{
+    margin-top: 30px;
+}
+.mx-10{
+    margin-right: 25px;
+}
+ 
+.h-4{
+    height: 4vw;
+}
+
