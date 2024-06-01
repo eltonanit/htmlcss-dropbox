@@ -3,3 +3,133 @@
     padding: 0;
     box-sizing: border-box ;
 }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;  color: black;
+}
+
+header{
+    background-color: red;
+    padding: 15px 0;
+    margin: 0 auto ;
+  
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container-sm {
+    width: 990px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-header{
+    background-color: blue;
+}
+
+
+
+
+
+
+/*-----------------------------------------------------COLORS*/
+.bg-acqua{
+    background-color: aqua;
+}
+
+.bg-white {
+    background-color: rgb(240, 240, 168);
+}
+
+
+/*-----------------------------------------------------COLONNE*/
+.col-100{
+    width: 100%;
+    
+
+}
+.col-70 {
+    width: 70%;
+    
+}
+.col-30{
+    width: 30%;
+}
+
+/*-----------------------------------------------------CONTENT*/
+
+.content-30{
+    background-color: yellow;
+        border-style: dashed;
+        height:100px;
+        padding: 5px;
+
+}
+
+/*-----------------------------------------------------BUTTON*/
+
+.btn-blue{
+    background-color: blueviolet;
+    color: white;
+    padding: 15px;
+    height: 30px;
+    align-items: center;
+    display: flex;
+    border: none;
+}
+
+
+
+
+/*-----------------------------------------------------UTILITIES*/
+
+.text-center {
+    text-align: center;
+}
+ul {
+    display: flex;
+}
+ul li {
+    display: inline-block;
+}
+.space-between{
+    justify-content: space-between;
+}
+.align-center {align-items: center;}
+.inline-block{display: inline-block;}
+li{padding: 0 10px;}
+
+h1{
+    font-size: 60px;
+    padding: 20px 0;
+}
+.justify-center{
+    justify-content: center;
+}
+.my-30{
+    margin: 30px 0;
+}
+ 
+
+.font-40{
+    font-size: 40px;
+}
+
+/*-----------------------------------------------------space*/
+
+.py-30{
+    padding: 30px;
+}
+
+ .bg-jumbo {
+    height: 25vw;
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+ }
