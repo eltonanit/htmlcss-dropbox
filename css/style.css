@@ -104,16 +104,54 @@ h4,span ,ul
 
 /*-----------------------------------------------------QUADRATI SPECIALI*/
 
-
+.full-quadrato{
+    height: 50vv;
+}
 .content-quadrato  {
 
     padding: 50px;
+    height: 45%;
 }
-.content-quadrato img {}
+.content-quadrato img {
+    max-width: 100%;
+        height: auto;
+        padding: 10%;
+         
+         
+        background-size: cover;
+
+}
 
 .top-q {}
 .bottom-q {}
 
+.bg-verde {
+    background-color: rgb(179, 220, 179);    
+}
+.bg-azzurro {
+    background-color: rgb(67, 141, 221);
+}
+.bg-bordeux {
+    background-color: rgb(116, 12, 38);
+}
+.bg-white {
+    background-color: rgb(255, 255, 255);
+}
+.bg-rosso {
+    background-color: rgb(208, 26, 26);
+}
+.bg-blue {
+    background-color: rgb(47, 16, 173);
+}
+.bg-cielo {
+    background-color: rgb(126, 177, 188);
+}
+.bg-giallo {
+    background-color: rgb(225, 222, 64);
+}
+.bg-arancio {
+    background-color: rgb(218, 44, 34);
+}
 
 /*-----------------------------------------------------CONTENT*/
 
@@ -213,6 +251,9 @@ h1{
 }
 .h-1{
     height: 1vw;
+}
+.p-30{
+    padding: 30px;
 }
 
 /*-----------------------------------------------------PROVE*/
