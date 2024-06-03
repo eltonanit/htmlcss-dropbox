@@ -50,7 +50,7 @@ header{
     background-color: rgb(240, 240, 168);
 }
 
- .bg-jumbo {
+.bg-jumbo {
      height: 25vw;
      background-repeat: no-repeat;
      background-size: cover;
@@ -58,11 +58,9 @@ header{
  }
 
 
+
 /*-----------------------------------------------------COLONNE*/
-r{
-    width: 10%;
-    margin: 20px 0;
-}
+ 
 h2,
 h3,
 h4,span ,ul
@@ -84,14 +82,37 @@ h4,span ,ul
     width: 60%;
 
 }
+.col-50 {
+    width: 50%;
+   
+
+}
 .col-40 {
     width: 40%;
 
 }
+.col-33 {
+    width:calc( 100% / 3);
+     
+}
 .col-30{
     width: 30%;
 }
+.col-16 {
+    width:calc(100% / 6) ;
+}
 
+/*-----------------------------------------------------QUADRATI SPECIALI*/
+
+
+.content-quadrato  {
+
+    padding: 50px;
+}
+.content-quadrato img {}
+
+.top-q {}
+.bottom-q {}
 
 
 /*-----------------------------------------------------CONTENT*/
@@ -162,6 +183,13 @@ h1{
 .font-40{
     font-size: 40px;
 }
+ .top img {
+     max-width: 100%;
+     height: auto;
+ }
+ .flex{
+    display: flex;
+ }
 
 
 /*-----------------------------------------------------space*/
@@ -183,29 +211,14 @@ h1{
 .h-4{
     height: 4vw;
 }
+.h-1{
+    height: 1vw;
+}
 
 /*-----------------------------------------------------PROVE*/
+.row-quadrati {
+    display: flex;
+    flex-wrap: wrap;
 
-
- .table {
-     width: 80%;
-     /* Larghezza del contenitore */
-     margin: 0 auto;
-     /* Centra il contenitore orizzontalmente */
-     padding: 20px;
-     border: 1px solid #ccc;
-     background-color: #f9f9f9;
- }
-
- .content-top,
- .content-bottom {
-     padding: 10px;
- }
-
- hr {
-     border: none;
-     border-top: 2px solid #ccc;
-     /* Colore e spessore della linea */
-     margin: 20px 0;
-     /* Spaziatura intorno alla linea */
- }
+     
+}
