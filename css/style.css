@@ -59,6 +59,18 @@ header{
 
 
 /*-----------------------------------------------------COLONNE*/
+r{
+    width: 10%;
+    margin: 20px 0;
+}
+h2,
+h3,
+h4,span ,ul
+{
+    margin: 20px 0;
+
+
+}
 .col-100{
     width: 100%;
     
@@ -68,15 +80,26 @@ header{
     width: 70%;
     
 }
+.col-60 {
+    width: 60%;
+
+}
+.col-40 {
+    width: 40%;
+
+}
 .col-30{
     width: 30%;
 }
+
+
 
 /*-----------------------------------------------------CONTENT*/
 
 .content-30{
     background-color: yellow;
-        border-style: dashed;
+         
+        border: 1px solid;
         
         padding: 5px;
 
@@ -95,6 +118,13 @@ header{
 }
 
 /*-----------------------------------------------------INSIDE FIRST 3 COLONNE*/
+.font-12 {
+    font-size: 14px;
+}
+.border-bt{
+    border-bottom: solid 1px;
+    width: 100%;
+}
 
 
 /*-----------------------------------------------------UTILITIES*/
@@ -133,9 +163,6 @@ h1{
     font-size: 40px;
 }
 
-.font-12 {
-    font-size: 12px;
-}
 
 /*-----------------------------------------------------space*/
 
@@ -146,7 +173,7 @@ h1{
     padding: 0 20px;
 }
 
- .my-30{
+.my-30{
     margin-top: 30px;
 }
 .mx-10{
@@ -157,3 +184,28 @@ h1{
     height: 4vw;
 }
 
+/*-----------------------------------------------------PROVE*/
+
+
+ .table {
+     width: 80%;
+     /* Larghezza del contenitore */
+     margin: 0 auto;
+     /* Centra il contenitore orizzontalmente */
+     padding: 20px;
+     border: 1px solid #ccc;
+     background-color: #f9f9f9;
+ }
+
+ .content-top,
+ .content-bottom {
+     padding: 10px;
+ }
+
+ hr {
+     border: none;
+     border-top: 2px solid #ccc;
+     /* Colore e spessore della linea */
+     margin: 20px 0;
+     /* Spaziatura intorno alla linea */
+ }
