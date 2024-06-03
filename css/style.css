@@ -47,7 +47,7 @@ header{
 }
 
 .bg-white {
-    background-color: rgb(240, 240, 168);
+    background-color: rgb(255, 255, 255);
 }
 
 .bg-jumbo {
@@ -57,10 +57,17 @@ header{
      background-position: center;
  }
 
+ .bg-black{
+    background-color: black;
+    color: white;
+ }
 
 
 /*-----------------------------------------------------COLONNE*/
  
+p{
+    margin: 10px 0;
+}
 h2,
 h3,
 h4,span ,ul
@@ -98,32 +105,31 @@ h4,span ,ul
 .col-30{
     width: 30%;
 }
+.col-20 {
+    width: calc(100% / 5);
+}
 .col-16 {
     width:calc(100% / 6) ;
 }
 
 /*-----------------------------------------------------QUADRATI SPECIALI*/
 
-.full-quadrato{
-    height: 50vv;
-}
+
 .content-quadrato  {
 
     padding: 50px;
-    height: 45%;
+    height: 14vw;
+}
+.content-quadrato-33 {
+
+    padding: 80px;
+    
+    height: 14vw;
 }
 .content-quadrato img {
     max-width: 100%;
         height: auto;
-        padding: 10%;
-         
-         
-        background-size: cover;
-
-}
-
-.top-q {}
-.bottom-q {}
+    }
 
 .bg-verde {
     background-color: rgb(179, 220, 179);    
@@ -171,9 +177,10 @@ h4,span ,ul
     color: white;
     padding: 15px;
     height: 30px;
-    align-items: center;
-    display: flex;
+    text-align: center;
+    
     border: none;
+    width: fit-content;
 }
 
 /*-----------------------------------------------------INSIDE FIRST 3 COLONNE*/
@@ -255,6 +262,14 @@ h1{
 .p-30{
     padding: 30px;
 }
+/*-----------------------------------------------------LINEE SPECIALI*/
+
+.linea-bianca{
+    background-color: white;
+    width: 46%;
+    height: 2px;
+
+}
 
 /*-----------------------------------------------------PROVE*/
 .row-quadrati {
@@ -262,4 +277,44 @@ h1{
     flex-wrap: wrap;
 
      
+}
+.mp-0{padding: 0;
+margin: 0;}
+
+.relative{
+    position:relative
+}
+.position-1{
+    top: 0;
+        right: 10px;
+}
+.button {
+    position: absolute;
+  
+    display: inline-block;
+    padding: 15px 20px;
+    
+    font-size: 12px;
+   background-color: blueviolet;    
+    
+    border: none;
+  
+    text-align: center;
+  
+    text-decoration: none;
+  
+    cursor: pointer;
+   
+    transition: background-color 0.3s ease;
+   
+}
+
+.button:hover {
+    background-color: #0056b3;
+   
+}
+
+.button:active {
+    background-color: #004085;
+    
 }
